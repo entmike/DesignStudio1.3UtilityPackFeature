@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="DesignStudioUtilityPackSCN"
+      label="Design Studio Utility Pack"
+      version="1.0.0.qualifier"
+      provider-name="Mike Howles, Leandro Cardoso">
+
+   <description url="http://scn.sap.com/people/mike.howles4">
+      com.sample.utilities
+==============================
+
+A package of Design Studio Utility Addons:
+
+SlideShow - A slideshow component using JSSOR library
+SuperImage - An SAPUI5 extended Image component with a Base-64 encoding property sheet
+HTMLTemplate - HTML and JavaScript inject for pre-SDK prototyping
+DoubleSidedTile - Like HTMLTemplate, but it flips, because it&apos;s fun.
+HighCharts - Highcharts Chart wrapper - Be sure you have a Highcharts license if you use in production
+
+Free as in free beer.
+
+mike.howles @ gmail.com if you want to chat about Design Studio SDK goodness.
+
+Find me on SCN:
+http://scn.sap.com/people/mike.howles4
+   </description>
+
+   <license url="">
+      You break it, you buy it.  Use for whatever you want.
+   </license>
+
+   <url>
+      <discovery label="Mike Howles - SCN" url="http://scn.sap.com/people/mike.howles4"/>
+   </url>
+
+   <requires>
+      <import plugin="com.sap.ip.bi.zen.rt.components.sdk.eclipse"/>
+   </requires>
+
+   <plugin
+         id="com.sample.utilities"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.qualifier"
+         unpack="false"/>
+
+</feature>
